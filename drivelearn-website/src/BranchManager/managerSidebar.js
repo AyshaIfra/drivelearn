@@ -46,10 +46,10 @@ const Sidebar = ({sidebarOpen, closeSidebar}) => {
           <i className="fa fa-clock-o"></i>
           <a href="#">Training Sessions</a>
         </div>
-        {/* <div className="sidebar__link">
+        <div className="sidebar__link">
           <i className="fa fa-bell"></i>
-          <a href="#">Notifications</a>
-        </div> */}
+          <a href="./managernotification">Notifications</a>
+        </div>
         <h2>PROFILE</h2>
         <div className="sidebar__link">
           <i className="fa fa-cog"></i>

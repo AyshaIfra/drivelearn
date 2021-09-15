@@ -4,6 +4,7 @@ import Home from './HomePage/pages/Home';
 // import Footer from './homePage/Footer';
 import Login from './HomePage/pages/Login';
 import Signup from './HomePage/pages/Signup';
+import Popup from './Common/Popup';
 import Administrator from './Administrator/pages/adminDashboard';
 import BranchManager from './BranchManager/pages/managerDashboard';
 import ManagerSettings from './BranchManager/pages/managerSetting';
@@ -33,6 +34,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/login' component={Login} />
           <Route path='/signup' component={Signup} />
+          <Route path='/popup' component={Popup} />
           <Route path='/administrator' component={Administrator} />
           <Route path='/branchmanager' component={BranchManager} />
           <Route path='/managersettings' component={ManagerSettings} />

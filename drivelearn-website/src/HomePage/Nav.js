@@ -45,6 +45,11 @@ function Nav() {
                 Branch Manager
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link to='/popup' className='nav-links' onClick={closeMobileMenu}>
+                Popup
+              </Link>
+            </li>
           </ul>
           
         </div>
